@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.dsx.webscaffold.dao.EmpLeaveMapper">
+  <resultMap id="BaseResultMap" type="cn.dsx.webscaffold.model.EmpLeave">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="hid" jdbcType="INTEGER" property="hid" />
+    <result column="startTime" jdbcType="TIMESTAMP" property="starttime" />
+    <result column="endTime" jdbcType="TIMESTAMP" property="endtime" />
+    <result column="createTime" jdbcType="TIMESTAMP" property="createtime" />
+    <result column="flag" jdbcType="BIGINT" property="flag" />
+    <result column="auditTime" jdbcType="TIMESTAMP" property="audittime" />
+    <result column="auditHrId" jdbcType="INTEGER" property="audithrid" />
+    <result column="reason" jdbcType="VARCHAR" property="reason" />
+  </resultMap>
+</mapper>
