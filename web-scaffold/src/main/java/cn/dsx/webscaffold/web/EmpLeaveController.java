@@ -1,4 +1,5 @@
 package cn.dsx.webscaffold.web;
+
 import cn.dsx.webscaffold.core.Result;
 import cn.dsx.webscaffold.core.ResultGenerator;
 import cn.dsx.webscaffold.model.EmpLeave;
